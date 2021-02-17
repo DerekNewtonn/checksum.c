@@ -1,0 +1,36 @@
+Script started on Tue 16 Feb 2021 10:03:23 PM PST
+]0;dan92843@ssh: ~/comp122/checksum.c[01;32mdan92843@ssh[00m:[01;34m~/comp122/checksum.c[00m$ cat 156.txtt | [K ints2bytes| ch[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt |ints[K[K[K[K ints2byth[Kes.c | checksum.c
+bash: ./ints2bytes.c: Permission denied
+checksum.c: command not found
+]0;dan92843@ssh: ~/comp122/checksum.c[01;32mdan92843@ssh[00m:[01;34m~/comp122/checksum.c[00m$ cq[Kat 156.txt ints[K[K[K[K| ints2bytes | checksum
+No command 'checksum' found, did you mean:
+ Command 'checksub' from package 'ncbi-tools-bin' (universe)
+checksum: command not found
+]0;dan92843@ssh: ~/comp122/checksum.c[01;32mdan92843@ssh[00m:[01;34m~/comp122/checksum.c[00m$ make clean
+rm -f ints2bytes *.bytes
+rm -f checksum checksum.o checksum.i checksum.s checksum.x86
+rm -f *~ \#*
+]0;dan92843@ssh: ~/comp122/checksum.c[01;32mdan92843@ssh[00m:[01;34m~/comp122/checksum.c[00m$ make
+cc     ints2bytes.c   -o ints2bytes
+make: *** No rule to make target 'checksum.c', needed by 'checksum.o'.  Stop.
+]0;dan92843@ssh: ~/comp122/checksum.c[01;32mdan92843@ssh[00m:[01;34m~/comp122/checksum.c[00m$ cat 156.txt [K |ints2[K[K[K[K[K ints2byb[Ktes.c | ce[Khecksum.c
+bash: ./ints2bytes.c: Permission denied
+
+checksum.c: command not found
+]0;dan92843@ssh: ~/comp122/checksum.c[01;32mdan92843@ssh[00m:[01;34m~/comp122/checksum.c[00m$ 
+]0;dan92843@ssh: ~/comp122/checksum.c[01;32mdan92843@ssh[00m:[01;34m~/comp122/checksum.c[00m$ make clean
+rm -f ints2bytes *.bytes
+rm -f checksum checksum.o checksum.i checksum.s checksum.x86
+rm -f *~ \#*
+]0;dan92843@ssh: ~/comp122/checksum.c[01;32mdan92843@ssh[00m:[01;34m~/comp122/checksum.c[00m$ make
+cc     ints2bytes.c   -o ints2bytes
+make: *** No rule to make target 'checksum.c', needed by 'checksum.o'.  Stop.
+]0;dan92843@ssh: ~/comp122/checksum.c[01;32mdan92843@ssh[00m:[01;34m~/comp122/checksum.c[00m$ cat 156.txt.[K \[K|int2bytes}[K| checksum
+int2bytes: command not found
+No command 'checksum' found, did you mean:
+ Command 'checksub' from package 'ncbi-tools-bin' (universe)
+checksum: command not found
+]0;dan92843@ssh: ~/comp122/checksum.c[01;32mdan92843@ssh[00m:[01;34m~/comp122/checksum.c[00m$ exit
+exit
+
+Script done on Tue 16 Feb 2021 10:13:57 PM PST
